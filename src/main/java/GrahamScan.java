@@ -65,6 +65,8 @@ public class GrahamScan extends JPanel
 		Arrays.sort(points, (p1, p2) -> comparePoints(lowest, p1, p2));
 		hull = new Stack<>();
 		hull.add(lowest);
+		if(points.length <= 1) return;
+
 		hull.add(points[1]);
 
 		int steps = 0;
