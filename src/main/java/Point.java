@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.geom.Point2D;
 
 public class Point
 {
@@ -15,6 +14,11 @@ public class Point
 		this.y = y;
 	}
 
+	/**
+	 * function to find distance between two points
+	 * @param p	the point to find the distance between
+	 * @return	the distance between this point and p
+	 */
 	public double dist(Point p) {
 		int px = p.getX() - this.getX();
 		int py = p.getY() - this.getY();
@@ -31,11 +35,19 @@ public class Point
 		return y;
 	}
 
+	/**
+	 *	function to return x coord of where this should be drawn on the screen
+	 * @return	the x pos this should be drawn at
+	 */
 	public int getScreenX()
 	{
 		return x+(panel.getWidth()-GrahamScan.WIDTH)/2;
 	}
 
+	/**
+	 *	function to return y coord of where this should be drawn on the screen. Inverts coordinates so y=0 is at the bottom
+	 * @return	the y pos this should be drawn at
+	 */
 	public int getScreenY()
 	{
 		return GrahamScan.HEIGHT-y+(panel.getHeight()-GrahamScan.HEIGHT)/2;
