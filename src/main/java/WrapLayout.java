@@ -1,3 +1,5 @@
+import org.w3c.dom.css.Rect;
+
 import java.awt.*;
 import javax.swing.JScrollPane;
 import javax.swing.SwingUtilities;
@@ -133,7 +135,6 @@ public class WrapLayout extends FlowLayout
 			{
 				dim.width -= (hgap + 1);
 			}
-
 			return dim;
 		}
 	}

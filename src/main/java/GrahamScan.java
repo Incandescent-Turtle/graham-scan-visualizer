@@ -27,7 +27,7 @@ public class GrahamScan extends JPanel
 
 	public GrahamScan()
 	{
-		frame = new JFrame();
+		frame = new JFrame("Graham Scan Visualizer");
 		var dim = new Dimension(WIDTH,HEIGHT);
 		frame.setPreferredSize(dim);
 		frame.setMinimumSize(dim);
