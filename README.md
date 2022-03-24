@@ -1,7 +1,7 @@
 # Graham Scan Visualization Tool
 
-This is a tool to visualize the Graham Scan algorithm for finding the convex hull of random points.
-[Download the .jar to test it out!](https://github.com/Incandescent-Turtle/graham-scan-visualizer/raw/master/out/artifacts/grahams_scan_jar/grahams-scan.jar)
+This is a tool to visualize the Graham Scan algorithm for finding the convex hull of random points.  
+[Download the .jar to test it out!](https://github.com/Incandescent-Turtle/graham-scan-visualizer/raw/master/out/artifacts/grahams_scan_jar/grahams-scan.jar)  
 <img alt="screenshot of program with a random shape and its hull" src="https://i.imgur.com/epBT0Jz.png" width="500px">
 
 ## Customization
