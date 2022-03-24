@@ -2,7 +2,7 @@
 
 This is a tool to visualize the Graham Scan algorithm for finding the convex hull of random points.  
 [Click here to download the .jar to test it out!](https://github.com/Incandescent-Turtle/graham-scan-visualizer/raw/master/out/artifacts/grahams_scan_jar/grahams-scan.jar)  
-<img alt="screenshot of program with a random shape and its hull" src="https://i.imgur.com/epBT0Jz.png" width="500px">
+<img alt="gif of visualizer on loop" src="https://i.imgur.com/eyLt0Im.gif" width="500px">
 
 ## 💄 Customization
 
@@ -25,5 +25,3 @@ This is a tool to visualize the Graham Scan algorithm for finding the convex hul
 
 ### 📓 Notes
 If you change the dot amount to 100_000 the shapes become mostly filled in.
-
-![gif of visualizer on loop](https://i.imgur.com/eyLt0Im.gif)
