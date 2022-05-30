@@ -12,7 +12,7 @@ This is a tool to visualize the Graham Scan algorithm for finding the convex hul
 - random shape generation
 - change the amount of dots
 - change the delay and step size to control the speed of the algorithm
-- toggle visibility of both the dots and the lines showing the hull
+- toggle the visibility of both the dots and the lines showing the hull
 - a "loop" option to continue generating and finding the hull of new shapes
 
 ---
